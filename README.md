@@ -1,12 +1,12 @@
 # Nintendo Wii GOG Galaxy 2.0 Integration
 
 A GOG Galaxy 2.0 integration with the Dolphin emulator.
-This is a fork of AHCoder (on GitHub)'s PCSX2 GOG Galaxy Plugin edited for support with Dolphin! 
-If you want to download it go here:
+This is a fork of my Wii plugin and that is a fork of AHCoder (on GitHub)'s PCSX2 GOG Galaxy Plugin edited for support with Dolphin! 
 
+Thank you AHCoder for the original program, and the GamesList and XML files 
+is from GameTDB.
 
-Thank you AHCoder for the original program, and the Index file 
-which gives the game database is from GameTDB.
+You can find GameTDB here: https://www.gametdb.com/
 
 Setup:
 Just download the file here and extract the ZIP into:
