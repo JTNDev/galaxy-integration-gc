@@ -1,0 +1,11 @@
+{
+    "name": "Dolphin GameCube for GOG Galaxy 2.0",
+    "platform": "ncube",
+    "guid": "6804a766-c1fd-48cf-9a8b-8661a970a6cb",
+    "version": "0.2.0",
+    "description": "GameCube Dolphin Plugin for GOG Galaxy 2.0",
+    "author": "JTNDev",
+    "email": "thejokister@gmail.com",
+    "url": "https://github.com/JTNDev/galaxy-integration-gc",
+    "script": "plugin.py"
+}
