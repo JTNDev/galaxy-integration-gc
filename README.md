@@ -1,4 +1,4 @@
-# Nintendo Wii GOG Galaxy 2.0 Integration
+# Nintendo GameCube GOG Galaxy 2.0 Integration
 
 A GOG Galaxy 2.0 integration with the Dolphin emulator.
 This is a fork of my Wii plugin and that is a fork of AHCoder (on GitHub)'s PCSX2 GOG Galaxy Plugin edited for support with Dolphin! 
