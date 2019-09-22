@@ -22,8 +22,7 @@ def is_dolphin_running():
 
 
 def get_the_game_times():
-    file = ElementTree.parse(os.path.expandvars(
-        r'%LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed\dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb\gametimes.xml'))
+    file = ElementTree.parse(os.path.dirname(os.path.realpath(__file__)) + r'\gametimes.xml')
     game_times = {}
     games_xml = file.getroot()
     for game in games_xml.iter('game'):
@@ -58,8 +57,7 @@ class BackendClient:
         return self.paths
 
     def parse_dbf(self):
-        file = ElementTree.parse(os.path.expandvars(
-            r'%LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed\dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb\games.xml'))
+        file = ElementTree.parse(os.path.dirname(os.path.realpath(__file__)) + r'\games.xml')
         games_xml = file.getroot()
         games = games_xml.findall('game')
         records = []

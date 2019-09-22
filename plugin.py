@@ -39,7 +39,7 @@ class DolphinPlugin(Plugin):
         for game in self.games:
             if str(game[1]) == game_id:
                 subprocess.Popen([emu_path, "-b", "-e", game[0]])
-                subprocess.Popen([os.path.expandvars(r"%LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed\dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb\TimeTracker\TimeTracker.exe"), game_id, game_id,  game[0]])
+                subprocess.Popen([os.path.dirname(os.path.realpath(__file__)) + r'\TimeTracker\TimeTracker.exe', game_id, game_id,  game[0]])
                 break
         return
 
