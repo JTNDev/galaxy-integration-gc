@@ -39,7 +39,7 @@ class DolphinPlugin(Plugin):
         for game in self.games:
             if str(game[1]) == game_id:
                 subprocess.Popen([emu_path, "-b", "-e", game[0]])
-                subprocess.Popen([os.path.dirname(os.path.realpath(__file__)) + r'\TimeTracker\TimeTracker.exe', game_id, game_id,  game[0]])
+                subprocess.Popen([os.path.dirname(os.path.realpath(__file__)) + r'\TimeTracker.exe', game_id, game_id,  game[0]])
                 break
         return
 
@@ -50,6 +50,7 @@ class DolphinPlugin(Plugin):
         pass
 
     async def get_game_time(self, game_id, context=None):
+        self.game_times = get_the_game_times()
         game_times = self.game_times
         game_time = int(game_times[game_id][0])
         game_time /= 60
