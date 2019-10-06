@@ -9,7 +9,7 @@ is from GameTDB.
 You can find GameTDB here: https://www.gametdb.com/
 
 ## Setup:
-Just download the file here and extract the ZIP into:
+Just download the file [here](https://github.com/JTNDev/galaxy-integration-gc/releases) and extract the ZIP into:
 - Windows:
 
     `%localappdata%\GOG.com\Galaxy\plugins\installed`
