@@ -1,0 +1,9 @@
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\bin\Debug\TimeTracker.exe.config
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\bin\Debug\TimeTracker.exe
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\bin\Debug\TimeTracker.pdb
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.csprojAssemblyReference.cache
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.Properties.Resources.resources
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.csproj.GenerateResource.cache
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.csproj.CoreCompileInputs.cache
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.exe
+C:\Users\coolj\iCloudDrive\Projects\TimeTracker\obj\Debug\TimeTracker.pdb
