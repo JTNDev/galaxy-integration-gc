@@ -28,7 +28,8 @@ def get_the_game_times():
     for game in games_xml.iter('game'):
         game_id = str(game.find('id').text)
         tt = game.find('time').text
-        game_times[game_id] = [tt, time.time()]
+        lasttimeplayed = game.find('lasttimeplayed').text
+        game_times[game_id] = [tt, lasttimeplayed]
     return game_times
 
 
