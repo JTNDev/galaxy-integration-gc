@@ -2,6 +2,8 @@
 roms_path = r"E:\Joshua's Stuff\roms\GameCube"
 # Set the path to your Dolphin.exe inside the string/quotes
 emu_path = r"C:\Program Files\Dolphin\Dolphin-x64\Dolphin.exe"
+#Enable to allow best match algorithm instead of exact game name
+best_match_game_detection = True
 
 # Retroarch Settings
 
