@@ -98,7 +98,8 @@ class BackendClient:
         for root, dirs, files in os.walk(user_config.roms_path):
             for file in files:
                 if file.lower().endswith(".iso") or file.lower().endswith(".ciso") or file.lower().endswith(
-                        ".gcm") or file.lower().endswith(".gcz") or file.lower().endswith(".wbfs"):
+                        ".gcm") or file.lower().endswith(".gcz") or file.lower().endswith(".wbfs") or file.lower(
+                        ).endswith(".wia") or file.lower().endswith(".rvz"):
                     self.paths.append([os.path.join(root, file)])
                     self.roms.append(
                         os.path.splitext(os.path.basename(file))[0])  # Split name of file from it's path/extension
